@@ -4,7 +4,7 @@ int main() {
     Canvas canvas("threepp");
     GLRenderer renderer(canvas);
     auto scene = Scene::create();
-    scene->background = Color::white;
+    scene->background = Color::aliceblue;
     auto camera = PerspectiveCamera::create(60, canvas.aspect(), 0.1f, 1000);
     camera->position.z = 5;
     canvas.onWindowResize([&](WindowSize size) {
@@ -18,7 +18,7 @@ int main() {
     scene->add(AmbientLight::create(0xffffff, 0.4f)); // hvitt lys med 40 % styrke
     auto geometry = BoxGeometry::create(1, 1, 1);
     auto material = MeshStandardMaterial::create();
-    material->color = Color::orange;
+    material->color = Color::blue;
     auto box = Mesh::create(geometry, material);
     scene->add(box);
     Clock clock;
