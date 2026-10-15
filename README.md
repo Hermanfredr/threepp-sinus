@@ -14,12 +14,9 @@ Antall kuber kan enkelt endres med variabelen "antallKuber" i main.cpp
 
 
 
-Trykker man på space endrer rad 1 farge fra blå, til oransje. 
-
-Trykker man på space igjen, endrer rad 2 farge til oransje.
-
-Trykker man en tredje gang, resettes begge radene tilbake til fargen blå. 
-
+Trykker man på Space, skifter kube 0, 2, 4, 6, … til oransje.
+Ved neste trykk skifter kube 1, 3, 5, 7, … til oransje.
+Videre trykk bytter fargen mellom blå og oransje på annenhver gruppe etter tur.
 
 
 **Bildet av programmet:**
